@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+  margin: 0;
+}
+
+body, h1, p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+} 
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+
+.background {
+  background-color: #EAE5FF;
+  height: 139px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  margin-left: 30px;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: 400;
+}
+header a {
+  color:#A46CFF;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 25px; 
+  border-radius: 4px;
+  
+}
+header{
+display: flex;
+  align-items: center;
+  justify-content: space-between;  
+}
+
+#cover {
+  background-image: url(img/fone_pink.png);
+  background-size: cover;
+  height: 763px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.cover-content h1 {
+  font-size: 64px;
+  font-weight: 500;
+  
+}
+
+.cover-content h2 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.cover-content button {
+  width: 584px;
+  height: 79px;
+background-color: #A46CFF;
+border: 0;
+border-radius: 37,5px;
+font-size: 40px;
+color: white;
+}
+button:hover{
+  background: 0;
+}
+nav{
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+}
+.background{
+  background-color: white;
+}
+.cover-logo{
+  width: 512px;
+  height: 517px;
+  float: right;
+  
+}
