@@ -85,7 +85,50 @@ nav{
   background-color: white;
 }
 .cover-logo{
-  width: 512px;
+  margin-bottom: 200px;
+  margin-right: -200px;
+  width: 519px;
   height: 517px;
   float: right;
+}
+.about-us-content{
+  display: flex;
+  align-items: center;
+ 
+}
+
+.cover-content-container{
+text-align: left;
+}
+.about-us{
+  height: 600px;
+  
+}
+.about-us-text{
+color: #FA75AD;
+text-align: left;
+
+}
+.about-us-photo{
+  padding: auto;
+  margin: 65px 40px 65px 0px;
+  border-radius: 18px;
+  border-style: solid;
+  border-color: #fa75ad;
+  border-width: 4px;
+  width: 483px;
+  height: 322px;
+  object-fit: cover;
+  aspect-ratio: 3/2;
+}
+h3{
+  color: #fa75ad;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 48px;
+
+  
+}
+.container about-us-content{
+  margin-bottom: 20px;
 }
