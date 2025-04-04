@@ -43,12 +43,14 @@ display: flex;
 }
 
 #cover {
-  background-image: url(img/fone_pink.png);
-  background-size: cover;
   height: 763px;
   display: flex;
   align-items: center;
   color: white;
+}
+.cover-content-container{
+  width: 1140px;
+  margin: 0 auto;
 }
 
 .cover-content h1 {
@@ -85,25 +87,21 @@ nav{
   background-color: white;
 }
 .cover-logo{
-  margin-bottom: 200px;
-  margin-right: -200px;
-  width: 519px;
-  height: 517px;
-  float: right;
+  height: 754px;
 }
 .about-us-content{
   display: flex;
   align-items: center;
- 
 }
 
 .cover-content-container{
 text-align: left;
 }
-.about-us{
+#about-us{
   height: 600px;
-  
+  margin: 65px 0 0 65px;
 }
+
 .about-us-text{
 color: #FA75AD;
 text-align: left;
@@ -122,13 +120,66 @@ text-align: left;
   aspect-ratio: 3/2;
 }
 h3{
-  color: #fa75ad;
-  text-align: left;
   font-family: "Inter-Bold", sans-serif;
   font-size: 48px;
-
-  
 }
 .container about-us-content{
   margin-bottom: 20px;
+}
+.card{
+  width: 1140px;
+  margin: 0 auto;
+background-image: url(img/girl.png);
+}
+.card-header{
+  display: flex;
+  width: 530px;
+  height: 558px;
+  flex-direction: column ;
+  text-align: left;
+  margin: 30px;
+}
+.card-title{
+margin-top: 20px;
+
+}
+.card-price{
+  margin-bottom: 86px;
+  margin-bottom: 10px;
+}
+.card-subtitle{
+margin-top: 5px;
+}
+.card-text{
+  margin-top: 60px;
+}
+.card-btn{
+  font-size: 18px;
+  margin-top: 50px;
+  background-color: #E0FB52 ;
+  border-radius: 10px;
+    color: rgb(9, 9, 9);
+    border: 0;
+    width: 255px;
+    height: 60px;
+  
+}
+.card-btn:hover{
+  box-shadow: 0 0 0 2px #E0FB52, 0 0 0 4px #E0FB52;
+}
+#form{
+  height: 626px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.input{
+  padding-left: 20px;
+  margin: 20px;
 }
