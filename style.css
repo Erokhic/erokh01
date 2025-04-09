@@ -141,7 +141,8 @@ h3{
   align-content: center;
   display: inline-block;
   margin-left: 25px;
-  margin-top: 8px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 padding: 22px;
  background-color: white;
  width: 556px;
@@ -150,12 +151,13 @@ padding: 22px;
 .cards{
   width: 1140px;
   margin: 0 auto;
+align-content: center;
 }
 .catalog{
   background-color: #FA75AD;
  background-size: cover;
- margin: 150px;
- height: 1400px;
+ margin: 200px;
+ height: 1300px;
 }
 .card-base{
   width: 1140px;
@@ -186,7 +188,7 @@ margin-top: 5px;
 }
 .card-text {
   font-size: 16px;
-  margin-top: 35px;
+  margin-top: 25px;
 }
 .card-btn{
   font-size: 18px;
@@ -202,32 +204,104 @@ margin-top: 5px;
   box-shadow: 0 0 0 2px #E0FB52, 0 0 0 4px #E0FB52;
 }
 .card-ux{
-  margin: 20px;
-  width: 560px;
-  height: 380px;
-}
-
-.card-web{
- margin: 20px;
-  width: 560px;
-  height: 380px;
+  margin-top: 20px;
+  width: 547px;
+  background-color: white;
+   border-radius: 10px;
+  
 }
 .card-group{
   width: 1140px;
-   background-color: white;
    border-radius: 15px;
-   display: inline-block;
+   display: flex;
+   justify-content: space-between;
 }
 
 .card-subject{
-  font-size: 36px;
+  font-size: 32px;
   margin-bottom: 5px;
 }
+.card-subject h2{
+  height: 87px;
+  font-size: 40px;
+  margin: 30px;
+}
 .card-subject p{
-  font-size: 32px;
+  font-size: 16px;
+  margin: 30px;
+  margin-top: 30px;
 }
 .card-sale{
   font-size: 32px;
-  margin-top: 20px;
-  margin-bottom: 5px;
+ margin: 30px;
+  display: flex;
+}
+.card-sale p {
+  background-color: #E0FB52;
+  width: 60px;
+  height: 30px;
+  font-size: 16px;
+  padding: 5;
+  text-align: center;
+ 
+}
+.card-desc{
+  font-size: 24px;
+  width: 250px;
+  margin: 20px;
+}
+.meta{
+  background-color: #C7A5FF;
+  height: 933px;
+  width: 1352px;
+ 
+}
+.meta-container{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.meta h3{
+  color: white;
+  font-size: 48px;
+  text-align: center;
+}
+.portfolio{
+  width:1146px ;
+  height: 741px;
+  align-content: center;
+}
+.form-container{
+  width: 1140px;
+  margin: 0 auto;
+}
+.form{
+  background-image: url(img/form-content.png);
+  background-size: cover;
+  width: 1140px;
+  height: 527px;
+ align-content: center;
+align-items: center;
+  
+}
+.form h3{
+  align-items: center;
+  /* padding: 20px; */
+  /* margin-top: 100px;
+  margin-bottom: 100px; */
+  width: 969px;
+}
+.form p{
+  font-size: 20px;
+ /* margin: 30px; */
+ padding: 20px;
+  width: 264px;
+}
+.form button{
+  background-color: #FFD705;
+  width: 325px;
+  height: 66px;
+  margin-left: 60px;
+  border: 0;
+  font-size: 16px;
 }
