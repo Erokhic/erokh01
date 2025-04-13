@@ -399,10 +399,26 @@ background-size: cover;
   width: 1140px;
   margin: 0 auto;
 }
-
+.socials-content h4 {
+  font-size: 48px;
+  padding: 20px;
+}
+.socials-group{
+  display: flex;
+ width: 90px;
+ height: 90px;
+ margin: 10px;
+}
 .socials {
   background-color: #FA75AD;
   background-size: cover;
   margin: 30px;
   color: white;
+}
+.socials-content p{
+  display: flex;
+  justify-content: right;
+  margin-top: 50px;
+  font-size: 24px;
+  
 }
