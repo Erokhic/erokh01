@@ -303,13 +303,12 @@ h3 {
  background-image: url(img/portfolio.png);
  width: 797px;
  height: 161px;
- margin-bottom: 50px;
+ margin-bottom: 70px;
   font-size: 48px;
   text-align: left;
 }
 
 .collage {
-  margin-top: 30px;
   display: flex;
   gap: 10px; /* Расстояние между столбцами */
   max-width: 1270px; /* Максимальная ширина коллажа */
@@ -371,7 +370,7 @@ background-size: cover;
   padding: 20px;
 }
 .form-group h3 {
-  margin: 36px 0 28px 20px;
+  margin: 36px 0 0 20px;
   text-align: left; 
   width: 744px;
   height: 166px;
@@ -380,7 +379,7 @@ background-size: cover;
 .form-group p {
   align-items: center;
   font-size: 20px;
-  margin: 28px 0 112px 20px;
+  margin: 0 0 112px 20px;
   width: 264px;
   height: 54px;
 }
