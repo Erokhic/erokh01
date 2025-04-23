@@ -23,7 +23,6 @@ h3 {
 }
 
 a {
-  margin-left: 30px;
   text-decoration: none;
   font-size: 40px;
   font-weight: 400;
@@ -34,8 +33,6 @@ header a {
   padding: 30px;
   text-decoration: none;
   font-size: 25px;
-
-
 }
 
 header {
@@ -78,16 +75,18 @@ header {
   width: 584px;
   height: 79px;
   margin-top: 50px;
-  margin-left: 100px;
+  margin-left: 40px;
   background: 0;
   border: 2px solid white;
   border-radius: 35px;
   font-size: 40px;
-  color: white;
+  text-decoration-color: white;
 }
-
+a, .cover-btn{
+color: white;
+}
 button:hover {
-  box-shadow: 3px 3px 5px 1px rgba(255, 255, 255, 0.5)
+  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #ffffff;
 }
 
 nav {
@@ -105,7 +104,8 @@ nav {
 .about-us-content {
   display: flex;
   align-items: center;
-  margin: 150px 0 150px 0;
+  height: 800px;
+  
 }
 
 #about-us {
@@ -114,7 +114,7 @@ nav {
 }
 
 .about-us-text {
-  color: #ff3dd5;
+  color: #FA75AD;
   text-align: left;
   font-size: 24px;
 }
@@ -139,29 +139,31 @@ h3 {
   background-size: cover;
   width: 1280px;
   height: 786px;
+
+}
+.program-course{
+  margin: 150px 0 150px 0;
 }
 .program-course h2 {
   font-size: 48px;
-  padding: 61px 400px 61px 61px;
+  padding: 50px 400px 61px 61px;
 
 }
 
 .program-text {
-  margin: 30px;
+  margin: 0 20px 20px 20px;
 }
 
 .program-text p {
   font-size: 22px;
   display: inline-block;
-  margin-left: 20px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  margin-right: 10px;
-  padding: 10px;
+  margin: 10px 10px 20px 20px;
+  border-radius: 10px;
+  padding: 15px;
   background-color: white;
   width: 556px;
-  height: 50px;
-  text-align: left;
+  height: 40px;
+  text-align: left center;
 }
 
 .cards {
@@ -175,7 +177,7 @@ h3 {
   background-size: cover;
   margin-top: 150px;
   margin-bottom: 150px;
-  height: 1300px;
+  height: 1240px;
 }
 
 .card-base {
@@ -184,6 +186,7 @@ h3 {
   background-image: url(img/girl.png);
   height: 558px;
   background-size: cover;
+  
 }
 
 .card-header {
@@ -192,11 +195,13 @@ h3 {
   height: 570px;
   flex-direction: column;
   text-align: left;
-  margin: 30px;
+padding: 30px;
 }
 
 .card-title {
   font-size: 48px;
+  margin: 0;
+  margin-bottom: 40px;
 }
 
 .card-price {
@@ -217,14 +222,16 @@ h3 {
 
 .card-btn {
   font-size: 18px;
-  margin-top: 5px;
   background-color: #E0FB52;
   border-radius: 10px;
   color: rgb(9, 9, 9);
   border: 0;
   width: 255px;
-  height: 50px;
+  height: 67px;
+  margin: 20px 0 20px 20px;
+  text-align: center;
 }
+
 
 .card-btn:hover {
   box-shadow: 0 0 0 2px #E0FB52, 0 0 0 4px #E0FB52;
@@ -232,10 +239,10 @@ h3 {
 
 .card-ux {
   margin-top: 20px;
-  width: 547px;
+  width: 550px;
   background-color: white;
   border-radius: 10px;
-
+padding: 3px;
 }
 
 .card-group {
@@ -275,13 +282,13 @@ h3 {
   font-size: 16px;
   padding: 5;
   text-align: center;
-
+margin: 30px;
 }
 
-.card-desc {
+.card-desc p {
   font-size: 24px;
   width: 250px;
-  margin: 20px;
+  margin: 30px;
 }
 
 .meta-container {
@@ -292,6 +299,8 @@ h3 {
 }
 #meta {
   margin: 0 auto;
+  height: 1000px;
+  align-content: center;
 }
 
 .meta-container h3 {
@@ -347,16 +356,17 @@ h3 {
 }
 
 
-.form {
+#form {
   width: 1140px;
 margin: 0 auto;
+height: 1000px;
+align-content: center;
 }
 
 .form-container {
 background-color: #E6FA8A;
 width: 1140px;
 padding-bottom: 10px;
-  margin: 150px 0 150px 0;
   height: 562px;
   align-content: center;
   border-radius: 20px;
@@ -390,9 +400,7 @@ padding-bottom: 10px;
   border-radius: 20px;
 }
 .form-group button:hover{
-  background: 0;
-  border: 5px solid white;
-  border-radius: 20px;
+  box-shadow: 0 0 0 2px #FFD705, 0 0 0 4px #FFD705;
 }
 .form-group img{
   float: right;
@@ -414,6 +422,7 @@ padding-bottom: 10px;
   background-size: cover;
   height: 300px;
  color: white;
+ align-content: center;
 }
 .socials-group {
   display: flex;
