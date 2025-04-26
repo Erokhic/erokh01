@@ -3,7 +3,8 @@
 body {
   margin: 0;
 }
-.scroll{
+
+.scroll {
   overflow-y: scroll;
 }
 
@@ -25,7 +26,6 @@ h3 {
 a {
   text-decoration: none;
   font-size: 40px;
-  font-weight: 400;
 }
 
 header a {
@@ -66,9 +66,9 @@ header {
 #cover p {
   font-size: 48px;
   width: 766px;
- margin-top: 20px;
+  margin-top: 20px;
   text-align: left;
- margin-left: 210px;
+  margin-left: 210px;
 }
 
 .cover-btn {
@@ -82,9 +82,12 @@ header {
   font-size: 40px;
   text-decoration-color: white;
 }
-a, .cover-btn{
-color: white;
+
+a,
+.cover-btn {
+  color: white;
 }
+
 button:hover {
   box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #ffffff;
 }
@@ -105,7 +108,7 @@ nav {
   display: flex;
   align-items: center;
   height: 800px;
-  
+
 }
 
 #about-us {
@@ -133,17 +136,20 @@ h3 {
   font-family: "Inter-Bold", sans-serif;
   font-size: 48px;
 }
-#program{
-   margin: 0 auto;
-   background-image: url(img/program_course.png);
+
+#program {
+  margin: 0 auto;
+  background-image: url(img/program_course.png);
   background-size: cover;
   width: 1280px;
   height: 786px;
 
 }
-.program-course{
+
+.program-course {
   margin: 150px 0 150px 0;
 }
+
 .program-course h2 {
   font-size: 48px;
   padding: 50px 400px 61px 61px;
@@ -177,25 +183,26 @@ h3 {
   background-size: cover;
   margin-top: 150px;
   margin-bottom: 150px;
-  height: 1240px;
+  height: 1270px;
 }
 
 .card-base {
   width: 1140px;
   margin: 0 auto;
   background-image: url(img/girl.png);
-  height: 558px;
+  height: 578px;
   background-size: cover;
-  
+  padding: 3px;
+  border-radius: 10px;
 }
 
 .card-header {
   display: flex;
   width: 530px;
-  height: 570px;
+  height: 560px;
   flex-direction: column;
   text-align: left;
-padding: 30px;
+  padding: 30px;
 }
 
 .card-title {
@@ -242,7 +249,7 @@ padding: 30px;
   width: 550px;
   background-color: white;
   border-radius: 10px;
-padding: 3px;
+  padding: 3px;
 }
 
 .card-group {
@@ -282,7 +289,7 @@ padding: 3px;
   font-size: 16px;
   padding: 5;
   text-align: center;
-margin: 30px;
+  margin: 30px;
 }
 
 .card-desc p {
@@ -297,6 +304,7 @@ margin: 30px;
   height: 898px;
   align-content: center;
 }
+
 #meta {
   margin: 0 auto;
   height: 1000px;
@@ -304,80 +312,94 @@ margin: 30px;
 }
 
 .meta-container h3 {
- background-image: url(img/portfolio.png);
- width: 797px;
- height: 161px;
- margin-bottom: 70px;
+  background-image: url(img/portfolio.png);
+  width: 797px;
+  height: 161px;
+  margin-bottom: 70px;
   font-size: 48px;
   text-align: left;
 }
 
 .collage {
   display: flex;
-  gap: 10px; /* Расстояние между столбцами */
-  max-width: 1270px; /* Максимальная ширина коллажа */
-  height: 588px; /* Фиксированная высота коллажа */
+  gap: 10px;
+  /* Расстояние между столбцами */
+  max-width: 1270px;
+  /* Максимальная ширина коллажа */
+  height: 588px;
+  /* Фиксированная высота коллажа */
   align-content: center;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  gap: 10px; /* Расстояние между фотографиями в столбце */
-  flex: 1; /* Равномерное распределение ширины столбцов */
+  gap: 10px;
+  /* Расстояние между фотографиями в столбце */
+  flex: 1;
+  /* Равномерное распределение ширины столбцов */
 }
 
 .column img {
   width: 100%;
-  object-fit: cover; /* Сохранение пропорций изображений */
-  border-radius: 8px; /* Округление углов изображений */
+  object-fit: cover;
+  /* Сохранение пропорций изображений */
+  border-radius: 8px;
+  /* Округление углов изображений */
 }
 
 /* Первый столбец */
 .column1 img {
-  height: calc(50% - 5px); /* Каждое изображение занимает половину высоты столбца */
+  height: calc(50% - 5px);
+  /* Каждое изображение занимает половину высоты столбца */
 }
 
 /* Второй столбец */
 .column2 img {
-  flex: 1; /* Равномерное распределение ширины фотографий в ряду */
-  height: 275px; /* Каждое изображение занимает половину высоты */
+  flex: 1;
+  /* Равномерное распределение ширины фотографий в ряду */
+  height: 275px;
+  /* Каждое изображение занимает половину высоты */
   width: 275px;
   object-fit: cover;
 }
 
 /* Третий столбец */
 .column3 img {
-  height: calc(50% - 5px); /* Каждое изображение занимает половину высоты столбца */
+  height: calc(50% - 5px);
+  /* Каждое изображение занимает половину высоты столбца */
 }
+
 /* Четвертый столбец */
-.column4 img{
-  height: calc(50% - 5px); /* Каждое изображение занимает половину высоты столбца */
+.column4 img {
+  height: calc(50% - 5px);
+  /* Каждое изображение занимает половину высоты столбца */
 }
 
 
 #form {
   width: 1140px;
-margin: 0 auto;
-height: 1000px;
-align-content: center;
+  margin: 0 auto;
+  height: 800px;
+  align-content: center;
 }
 
 .form-container {
-background-color: #E6FA8A;
-width: 1140px;
-padding-bottom: 10px;
+  background-color: #E6FA8A;
+  width: 1140px;
+  padding-bottom: 10px;
   height: 562px;
   align-content: center;
   border-radius: 20px;
 }
 
-.form-group{
+.form-group {
   padding: 20px;
 }
+
 .form-group h3 {
   margin: 36px 0 0 20px;
-  text-align: left; 
+  text-align: left;
   width: 744px;
   height: 166px;
 }
@@ -399,10 +421,12 @@ padding-bottom: 10px;
   font-size: 16px;
   border-radius: 20px;
 }
-.form-group button:hover{
+
+.form-group button:hover {
   box-shadow: 0 0 0 2px #FFD705, 0 0 0 4px #FFD705;
 }
-.form-group img{
+
+.form-group img {
   float: right;
   margin-top: 60px;
 }
@@ -411,6 +435,7 @@ padding-bottom: 10px;
   width: 1140px;
   margin: 0 auto;
 }
+
 .socials-content h4 {
   font-size: 40px;
   padding: 30px 20px 30px 20px;
@@ -421,20 +446,72 @@ padding-bottom: 10px;
   background-color: #FA75AD;
   background-size: cover;
   height: 300px;
- color: white;
- align-content: center;
+  color: white;
+  align-content: center;
 }
+
 .socials-group {
   display: flex;
   justify-content: space-between;
   margin: 20px;
 }
-.socials-group img{
+
+.socials-group img {
   width: 60px;
   height: 60px;
 }
-.socials-group p{
+
+.socials-group p {
   align-items: center;
   font-size: 24px;
-margin-left: 30px;
+  margin-left: 30px;
+}
+
+.registration {
+  box-sizing: content-box;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.registration h1 {
+  font-size: 48px;
+  color: #FFD705;
+  text-align: center;
+}
+
+.name {
+  margin-top: 50px;
+
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  padding: 20px;
+  width: 500px;
+  display: flex;
+  justify-items: center;
+  font-size: 17px;
+  border: 2px solid #aaaaaa;
+  margin-top: 30px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.btn {
+  color: #FFD705;
+  display: flex;
+  margin: 40px 110px 40px 110px;
+  padding: 22px;
+  text-align: center;
+  width: 300px;
+  border-style: none;
+  border: 2px solid #aaaaaa;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-size: 20px;
 }
