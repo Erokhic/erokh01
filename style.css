@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@media (max-width: 480px){
+  body{
+    font-size: 14px;
+  }
+}
 body {
   margin: 0;
 }
@@ -176,6 +181,7 @@ h3 {
   width: 1140px;
   margin: 0 auto;
   align-content: center;
+  flex-wrap: wrap;
 }
 
 #catalog {
@@ -467,24 +473,27 @@ h3 {
   margin-left: 30px;
 }
 
-.registration {
+#registration {
   box-sizing: content-box;
   width: 1140px;
   margin: 0 auto;
+  border-radius: 20px;
 }
 
-.registration h1 {
+#registration h1 {
   font-size: 48px;
   color: #FFD705;
   text-align: center;
+  margin-top: 80px;
 }
 
 .name {
-  margin-top: 50px;
+  margin-top: 30px;
 
 }
 
 .registration-form {
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -496,22 +505,26 @@ input {
   display: flex;
   justify-items: center;
   font-size: 17px;
-  border: 2px solid #aaaaaa;
+  border: 1px solid #aaaaaa;
   margin-top: 30px;
   margin: 20px;
   border-radius: 10px;
 }
 
 .btn {
-  color: #FFD705;
-  display: flex;
-  margin: 40px 110px 40px 110px;
-  padding: 22px;
-  text-align: center;
-  width: 300px;
-  border-style: none;
-  border: 2px solid #aaaaaa;
-  border-radius: 10px;
-  background-color: #ffffff;
-  font-size: 20px;
+    background-color: #FFD705;
+    width: 325px;
+    height: 66px;
+    margin-top: 30px;
+    border: 0;
+    font-size: 16px;
+    border-radius: 20px
 }
+.btn button:hover {
+    box-shadow: 0 0 0 2px #FFD705, 0 0 0 4px #FFD705;
+  }
+  .content{
+    text-align: center;
+    color: #aaaaaa;
+    margin-top: 100px;
+  }
