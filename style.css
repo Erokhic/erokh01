@@ -1,13 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-
-
-
-
-
-
-
-
 body {
   margin: 0;
 }
@@ -33,14 +24,19 @@ h3 {
 
 a {
   text-decoration: none;
-  font-size: 40px;
 }
 
 header a {
   color: #A46CFF;
-  padding: 30px;
+  padding: 40px;
+  margin-right: 10px;
+  
   text-decoration: none;
   font-size: 25px;
+}
+.header-container{
+  width: 1140px;
+  margin: 0 auto;
 }
 
 header {
@@ -50,6 +46,7 @@ header {
 }
 
 #cover {
+  width: 1140px;
   margin: 0 auto;
   margin-top: 50px;
   display: flex;
@@ -115,7 +112,7 @@ nav {
   display: flex;
   align-items: center;
   height: 800px;
-
+margin-top: 100px;
 }
 
 #about-us {
@@ -189,8 +186,8 @@ h3 {
 #catalog {
   background-color: #FA75AD;
   background-size: cover;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 250px;
+  margin-bottom: 100px;
   height: 1270px;
 }
 
@@ -323,7 +320,7 @@ h3 {
   background-image: url(img/portfolio.png);
   width: 797px;
   height: 161px;
-  margin-bottom: 70px;
+  margin-bottom: 90px;
   font-size: 48px;
   text-align: left;
 }
